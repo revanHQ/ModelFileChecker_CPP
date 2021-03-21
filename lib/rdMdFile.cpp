@@ -5,6 +5,11 @@
 char ModelArray[100];
 char* Result;
 
+/**
+ * Read a model file and filter it by .o3d. Output is only .o3d files with its corresponding folders.
+ * @param path Path to a cfg file.
+ */
+
 void ReadModelFile::readTheFile (const std::string& path) {
     std::ifstream ReadConfigFile(path);
 
